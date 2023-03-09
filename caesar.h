@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 #pragma once
 
 char shiftChar(char c, int rshift);

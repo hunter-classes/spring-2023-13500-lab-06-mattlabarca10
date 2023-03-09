@@ -1,7 +1,7 @@
 #include <iostream>
+#include <string>
 
 void ascii(std::string str){
-    std::string result = "";
     for(int i = 0; i < str.length(); i++){
         char temp = str[i];
         std::cout << temp << " " << int(temp)<< std::endl;
